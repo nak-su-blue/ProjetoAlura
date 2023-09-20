@@ -89,6 +89,25 @@
 }
 @media (max-width: 1025px) {
   .apresentacao{
-       flex-direction: column-reverse;
-    }
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1%;
+ }
+    .apresentacao_conteudo{
+    width: auto;
+   }
+
+   .imagem_principal{
+
+   width:50%;
+   border-radius: 20%;
+   }
+
+  
+  .cabecalho{
+    padding: 10px;
+ }
+   .cabecalho_nav{
+    justify-content: center;
+ }
 }
